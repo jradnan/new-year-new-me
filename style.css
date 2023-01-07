@@ -143,8 +143,8 @@
     margin-top: 124px;
 }
 .challenge-content{
-    margin-left: 294px;
-    padding-top: 30px;
+    margin-left: 80px;
+    padding-top: 10px;
     padding-bottom: 40px;
     width: 40%;
 }
@@ -154,12 +154,16 @@
     font-weight: 700;
     line-height: 46px;
     margin-top: 59px;
+    color: #FFFFFF;
 }
 .challenge-section{
-    background:url('images/gradient2.png'), url('images/watch.png') ;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url('images/watch.png') ;
     background-repeat: no-repeat;
-    background-position: center, center;
-    margin-bottom: 130px;
+    background-size:  cover;
+    margin: 130px 140px;
+    border-radius: 10px;
+    
    
    
 }
@@ -227,11 +231,7 @@ footer{
     color: #FFFFFF;
     
 }
-input [type="text"]::placeholder{
-    font-size: 18px;
-    color: #FFFFFF;
 
-}
 .sub-btn{
     margin-top: 32px;
     padding: 18px 30px;
@@ -243,3 +243,44 @@ input [type="text"]::placeholder{
     border: none;
     border-radius: 5px;
 }
+/* bonus section */
+.bonus-section {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #6D53D1;
+
+}
+
+.bonus-section img {
+    width: 569px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+   
+}
+
+.bonus-content {
+    margin-left: 87px;
+}
+
+.bonus-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    display: inline-block;
+    width: 50%;
+}
+
+.bonus-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 24px;
+    line-height: 30px;
+    font-family: 'Work Sans';
+    width: 68%;
+
+}
+
+
