@@ -1,3 +1,7 @@
+:root{
+    --primary: hsla(348, 97%, 63%, 0.65);
+    --secondary: hsla(230, 96%, 62%, 0.65);
+}
 * {
     padding: 0;
     margin: 0;
@@ -16,17 +20,18 @@
     padding-right: 230px;
     padding-left: 845px;
     text-align: end;
-  
- 
+
+
 }
 
 .banner-content h2 {
     font-size: 50px;
     font-weight: 800;
     font-family: 'Work Sans';
-   
+
 }
-.banner-content p{
+
+.banner-content p {
     margin-top: 24px;
     font-size: 16px;
     font-weight: 400;
@@ -34,7 +39,200 @@
     font-family: 'Work Sans';
     line-height: 26px;
 }
-.primary-btn{
+
+.primary-btn {
+    margin-top: 32px;
+    padding: 18px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Work Sans';
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+.hero-section img {
+    width: 569px;
+    margin-left: 206px;
+}
+
+.hero-content {
+    margin-left: 87px;
+}
+
+.hero-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Work Sans';
+    display: inline-block;
+    width: 50%;
+}
+
+.hero-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-top: 24px;
+    line-height: 30px;
+    font-family: 'Work Sans';
+    width: 68%;
+
+}
+
+.hero-content-icon {
+    margin-top: 16px;
+}
+
+.hero-content-icon p {
+    display: inline;
+}
+
+.hero-content-icon i {
+    color: #16D887;
+
+}
+
+.my-plans h2 {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans';
+    line-height: 46.92px;
+    margin-bottom: 49.7px;
+}
+
+.my-plan-section h2 {
+
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Work Sans';
+    line-height: 35px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.my-plan-section p {
+
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Work Sans';
+    line-height: 29px;
+    color: #737272;
+    text-align: center;
+    margin-top: 10px;
+  
+}
+.my-plan-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+ 
+}
+.challenge-section{
+    margin-top: 124px;
+}
+.challenge-content{
+    margin-left: 294px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 40%;
+}
+.challenge-section h2{
+    font-family: 'Work Sans';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 59px;
+}
+.challenge-section{
+    background:url('images/gradient2.png'), url('images/watch.png') ;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    margin-bottom: 130px;
+   
+   
+}
+footer{
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.footer-content{
+    padding-top: 130px;
+    padding-left: 230px;
+    padding-bottom: 130px;
+   
+   
+}
+.footer-content h2{
+    font-family: 'Work Sans';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 59px;
+    color: #F8F8F8;
+  ;
+}
+.footer-content p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    width: 485px;
+}
+
+
+.footer-icon img{
+    margin-right: 15px;
+    margin-top: 32px;
+}
+
+#input{
+    width: 325px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    line-height: 21px;
+    margin-top: 20px;
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius:10px;
+}
+.input-section span{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Work Sans';
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.input-section{
+    margin-left: 231px;
+    color: #FFFFFF;
+    
+}
+input [type="text"]::placeholder{
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.sub-btn{
     margin-top: 32px;
     padding: 18px 30px;
     font-size: 16px;
